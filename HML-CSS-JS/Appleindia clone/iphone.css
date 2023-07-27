@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    border:1px solid black;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(54, 54, 54);
+    color: azure;
+}
+#miniheader{
+    /* border:1px solid black; */
+    height: 70px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;                              /* we used this margin here for making containers in center*/
+    margin-top: 15px;
+}
+#logo{
+   /* border:1px solid black; */
+    height: 30px;
+    width: 30px;
+    font-size: 35px;
+    padding-top: 0px;
+    
+}
+.mini{
+   /* border:1px solid black; */
+    height: 30px;
+    width: 30px
+    text-align: center;
+}
+#search{
+   /* border:1px solid black; */
+    height: 30px;
+    width: 30px;
+    font-size: 30px;
+}
+#cart{
+   /* border:1px solid black; */
+    height: 30px;
+    width: 30px;
+    font-size: 30px;
+}
+
+
+
+#shopline{
+    border:1px solid black;
+    height: 50px;
+    width: 100%;
+  text-align: center;
+  padding-top: 15px;
+}
+nav div a{
+    text-decoration: underline;
+    color: blue;
+       
+}
+
+
+#bigcont1{
+    width: 100%;
+    height: 550px;
+    border: 1px solid black;
+    background-color: black;
+    position: relative;
+}
+#smallcont1{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid red; */
+    position: absolute;
+    color: antiquewhite;
+    text-align: center;
+
+}
+#h1{
+        font-size: 35px;
+        font-weight: bold;
+    
+    }
+#h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+    
+}
+h4 a{
+    text-decoration: none;
+
+}
+
+#iphoneimage{
+   /* border: 1px solid red;
+    width: 100%; height: 422px; */
+   
+    
+}
+#iphoneimage1{
+        background-repeat: no-repeat;
+    
+}
+
+
+
+#bigcont2{
+    width: 100%;
+    height: 550px;
+  /*  border: 1px solid black; */
+    
+    position: relative;
+}
+#smallcont2{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid red; */
+    position: absolute;
+    color: rgb(14, 13, 12);
+    text-align: center;
+
+}
+#iphoneimage2{
+    /* border: 1px solid red;
+     width: 100%; height: 100px; */
+    
+     
+ }
+ #iphoneimage3{
+        background-repeat: no-repeat;
+        width: 80%; height: 360px;
+     
+ }
+
+ #bigcont3{
+    width: 100%;
+    height: 550px;
+  /*  border: 1px solid black; */
+    background-color: black;
+    position: relative;
+}
+#smallcont3{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid red; */
+    position: absolute;
+    background-color:black;
+    color: white;
+    text-align: center;
+
+}
+#iwatch{
+    /* border: 1px solid red;
+     width: 100%; height: 100px; */
+    
+     
+ }
+ #iwatch1{
+        background-repeat: no-repeat;
+        width: 80%; height: 360px;
+     
+ }
+
+
+#bigcont4{
+    /*border: 1px solid red;*/
+    width: 100%; height: 1000px;
+}
+#hozcont1{
+    /*border: 1px solid red;
+    width:100%; height:500px*/
+    display: flex;
+    
+}
+#hozcont2{
+    /*border: 1px solid red;
+    width:100%; height:500px*/
+    display: flex;
+}
+.subhoz1{
+ /*   border: 1px solid rgb(19, 211, 54);*/
+    width:50%; height:500px;
+    position: relative;
+    align-content: center;
+    text-align: center;
+    overflow:hidden
+}
+
+/*
+#subhoz1content{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+*/
+
+#twohand{
+    height: 400px; width: 735px;
+    
+}
+.bird{
+    height: 350px; width: 740px;
+}
+
+
+.subhoz2{
+    /* border: 1px solid rgb(144, 47, 6); */
+    width: 50%; height: 500px;
+    position: relative;
+    align-content: center;
+    text-align: center;
+    
+}
+
+.watch{
+    height: 400px; width: 735px;
+}
+.pad{
+    height: 400px; width: 735px;
+}
+
+
+
+
+
+
+
+
