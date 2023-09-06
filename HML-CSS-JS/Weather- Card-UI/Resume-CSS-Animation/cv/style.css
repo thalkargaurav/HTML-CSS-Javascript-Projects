@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    animation-name: indianhtmlweb;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    z-index: 1;
+}
+
+@keyframes indianhtmlweb {
+    0% {
+        background-color: red;
+    }
+
+    10% {
+        background-color: yellow;
+    }
+
+    20% {
+        background-color: green;
+    }
+
+    30% {
+        background-color: blue;
+    }
+
+    40% {
+        background-color: pink;
+    }
+
+    50% {
+        background-color: violet;
+    }
+
+    60% {
+        background-color: goldenrod;
+    }
+
+    70% {
+        background-color: lavender;
+    }
+
+    80% {
+        background-color: greenyellow;
+    }
+
+    90% {
+        background-color: rebeccapurple;
+    }
+
+    100% {
+        background-color: navy;
+    }
+
+}
+
+.container {
+    width: 60vw;
+    height: 160vh;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 100px gray;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    margin-top: 7%;
+    position: relative;
+    animation-name: indianhtmlweb;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    transition: all 1s ease-in-out;
+    margin: 50px 25px;
+}
+
+img:hover {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    transform: rotate(360deg);
+
+}
+
+h2 {
+    float: right;
+    display: inline-block;
+    margin-right: 20%;
+    font-size: 50px;
+    margin-top: 10%;
+    color: aliceblue;
+}
+
+h2:hover {
+    font-size: 55px;
+}
+
+h3 {
+    float: right;
+    display: inline-block;
+    margin-right: 23%;
+    margin-top: -13%;
+    color: aliceblue;
+}
+
+.content {
+    padding: 30px;
+}
+
+p {
+    font-size: 20px;
+    padding: 10px;
+    color: aliceblue;
+}
